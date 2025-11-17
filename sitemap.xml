@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chipstack.space/</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
@@ -11,9 +11,29 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chipstack.space/auth/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://chipstack.space/community-guidelines/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chipstack.space/responsible-play/</loc>
+    <changefreq>quarterly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chipstack.space/daily-bonus/</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://chipstack.space/leaderboard/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chipstack.space/how-it-works/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://chipstack.space/accessibility/</loc>
@@ -21,14 +41,19 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://chipstack.space/community-guidelines/</loc>
+    <loc>https://chipstack.space/data-rights/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chipstack.space/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://chipstack.space/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chipstack.space/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://chipstack.space/cookie-policy/</loc>
@@ -41,33 +66,8 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://chipstack.space/data-rights/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://chipstack.space/how-it-works/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://chipstack.space/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://chipstack.space/profile/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://chipstack.space/responsible-play/</loc>
-    <changefreq>quarterly</changefreq>
+    <loc>https://chipstack.space/contact/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://chipstack.space/terms/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
   </url>
 </urlset>
