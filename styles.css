@@ -548,31 +548,54 @@ blockquote {
   color: var(--muted);
 }
 
-.game-embed {
+.live-game {
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  background: var(--surface-alt);
+  background: rgba(6, 9, 30, 0.8);
   box-shadow: var(--shadow-soft);
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+}
+
+.live-game__screen {
   position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #050412;
+}
+
+.live-game__screen::after {
+  content: "";
+  display: block;
   padding-top: 56.25%;
 }
 
-.game-embed iframe {
+.live-game__screen iframe {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 0;
 }
 
-.game-embed__footer {
-  margin-top: 1rem;
-  padding: 1rem 1.25rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.04);
+.live-game__info {
+  display: grid;
+  gap: 1rem;
+  align-content: flex-start;
+}
+
+.live-game__info small {
   color: var(--muted);
+  line-height: 1.4;
+}
+
+@media (max-width: 960px) {
+  .live-game {
+    grid-template-columns: 1fr;
+  }
 }
 
 .team-photo {
